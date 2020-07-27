@@ -7,21 +7,20 @@ Go env is set apart from GOPATH
 > Deployment
 # go get github.com/godtide/tester/PubConverter
 
-#  xpub = PubConverter.Xpub(pub)
+ xpub = PubConverter.Xpub(pub)
 
-#  ypub = PubConverter.Ypub(pub)
+ ypub = PubConverter.Ypub(pub)
 
-#  zpub = PubConverter.Zpub(pub)
+ zpub = PubConverter.Zpub(pub)
 
 
 >Full Example
 # package convert
+ import (github.com/godtide/tester/PubConverter)
 
-# import (github.com/godtide/tester/PubConverter)
+ xpub = PubConverter.Xpub(pub)
 
-# xpub = PubConverter.Xpub(pub)
-
-# ypub = PubConverter.Ypub(pub)
-
-# zpub = PubConverter.Zpub(pub)
+ pub = PubConverter.Ypub(pub)
+ 
+ zpub = PubConverter.Zpub(pub)
 
