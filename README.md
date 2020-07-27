@@ -19,7 +19,9 @@ Go env is set apart from GOPATH
 # Full Example
  package convert
 
- import (github.com/godtide/tester/PubConverter) 
+ import (
+     github.com/godtide/tester/PubConverter
+     ) 
 
  xpub = PubConverter.Xpub(pub)
 
