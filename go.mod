@@ -1,4 +1,4 @@
-module github.com/Godtide/tester/xPubConverter.go
+module github.com/Godtide/tester/PubConverter.go
 
 go 1.14
 

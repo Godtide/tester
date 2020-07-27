@@ -1,23 +1,27 @@
 # tester
  <!-- A Bitcoin PUB converter in Golang by #https://github.com/Godtide  inspiration from #https://github.com/codaelux/pubkeyConverter   -->
  
-## Deployment
->  go get github.com/godtide//
+>Requirement
+Go env is set apart from GOPATH
 
->  xpub = Converter.Xpub(pub)
+> Deployment
+# go get github.com/godtide/tester/PubConverter
 
->  ypub = Converter.Ypub(pub)
+#  xpub = PubConverter.Xpub(pub)
 
->  zpub = Converter.Zpub(pub)
+#  ypub = PubConverter.Ypub(pub)
 
-Having successfully installed everything within the client directory, we execute `npm start` to boot up the front-end locally.
+#  zpub = PubConverter.Zpub(pub)
 
-##  Full Example
-> package convert
 
- import (github.com/godtide/PubConverter)
+>Full Example
+# package convert
 
-xpub = Converter.Xpub(pub)
-ypub = Converter.Ypub(pub)
-zpub = Converter.Zpub(pub)
+# import (github.com/godtide/tester/PubConverter)
+
+# xpub = PubConverter.Xpub(pub)
+
+# ypub = PubConverter.Ypub(pub)
+
+# zpub = PubConverter.Zpub(pub)
 
