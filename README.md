@@ -1,4 +1,4 @@
-# tester
+# Bitcoin PUB Converter
  <!-- A Bitcoin PUB converter in Golang by #https://github.com/Godtide  inspiration from #https://github.com/codaelux/pubkeyConverter   -->
  
 >Requirement
