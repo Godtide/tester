@@ -9,8 +9,8 @@ import (
 	   "github.com/btcsuite/btcutil/base58"
        "strings"
        "encoding/hex"
- "encoding/base64"
- "fmt"
+       "encoding/base64"
+       "fmt"
 )
 
 var pubMap := map[string]string{"xpub":"0488b21e", "ypub": "049d7cb2", "zpub": "04b24746"}
@@ -20,10 +20,9 @@ var pubMap := map[string]string{"xpub":"0488b21e", "ypub": "049d7cb2", "zpub": "
 
 func Xpub(pub []byte) []byte {
 	data := base58.Decode(pub)
-	// rune splcccceices
+	// rune splice
     data := data[4:]
    // verfiyyy Hex and base64Encode
-   // data = Buffer.concat([Buffer.from(pubMap["xpub"], 'hex'), data]); JS version
    db, err := decodeHex(pubmap["xpub"])
    if err != nil {
        fmt.Printf("failed to decode hex: %s", err)
@@ -48,7 +47,6 @@ func Ypub(pub []byte) []byte {
 	// rune splice
     data := data[4:]
    // verfiyyy Hex and  base64Encode
-   // data = Buffer.concat([Buffer.from(pubMap["xpub"], 'hex'), data]); JS version
    db, err := decodeHex(pubmap["ypub"])
    if err != nil {
        fmt.Printf("failed to decode hex: %s", err)
@@ -68,7 +66,6 @@ func Zpub(pub []byte) []byte {
 	// rune splice
     data := data[4:]
    // verfiyyy Hex and  base64Encode
-   // data = Buffer.concat([Buffer.from(pubMap["xpub"], 'hex'), data]); JS version
    db, err := decodeHex(pubmap["zpub"])
    if err != nil {
        fmt.Printf("failed to decode hex: %s", err)
